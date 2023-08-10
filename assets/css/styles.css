@@ -395,6 +395,7 @@ img {
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  
 }
 
 .footer__title {
@@ -540,13 +541,42 @@ img {
 
 .portofolio_section{
   display: flex;
-  align-items: flex-start;
+  
  
 }
 .item{
-  width: 500px;
-  position: absolute;
-  float: left;
+  display: flex;
+  margin-left:115px;
+  padding:20px;
+}
+
+
+.item_1{
+  
+  width: 545px;
+  padding:0 20px;
+}
+
+.item2{
+
+  width: 206px;
+  padding:25px 20px;
+  margin-left: 170px;
+  
+}
+.item2:hover{
+  width: 216px;
+transition:0.6s;
+opacity: 9; 
+  
+}
+.item2 h1{
+margin-top: 20px;
+font-family:poplin;
+
+}
+
+p.slide{
 
 }
 
